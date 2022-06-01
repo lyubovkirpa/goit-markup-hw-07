@@ -2,10 +2,9 @@
 .contact {
   display: flex;
   margin-left: auto;
-}
-
-.contact__item + .contact__item {
-  margin-left: 50px;
+  &__item + &__item {
+    margin-left: 50px;
+  }
 }
 
 .contact__link--header {
@@ -26,10 +25,9 @@
   padding-bottom: 32px;
   align-items: center;
   transition: color 250ms;
-}
-
-.contact__link:hover {
-  color: var(--bgd-color);
+  &:hover {
+    color: var(--bgd-color);
+  }
 }
 
 .contact__icon {

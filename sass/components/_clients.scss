@@ -14,13 +14,12 @@
   cursor: pointer;
   align-items: center;
   transition: color 250ms, border-color 250ms;
+  &:hover,
+  &:focus {
+    color: var(--bgd-color);
+    border-color: var(--bgd-color);
+  }
 }
 .clients__icon {
   fill: currentColor;
-}
-
-.clients__link:hover,
-.clients__link:focus {
-  color: var(--bgd-color);
-  border-color: var(--bgd-color);
 }
